@@ -13,7 +13,7 @@ function Home() {
           Straight out of the oven, straight to you.
         </span>
       </h1>
-      {username === '' ? (
+      {username === ' ' ? (
         <CreatUser />
       ) : (
         <Button type="primary" to="/menu">
