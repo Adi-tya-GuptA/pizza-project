@@ -3,7 +3,6 @@ import Button from '../../ui/Button';
 import { useDispatch, useSelector } from 'react-redux';
 import {
   decreaseItemQuantity,
-  deleteItem,
   getTotalQuantityById,
   increaseItemQuantity,
 } from './cartSlice';
